@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact &amp; Directions — Todd Memorial Chapel</title>
+<meta name="description" content="Reach Todd Memorial Chapel 24 hours at (909) 622-1217. 570 N Garey Ave, Pomona, CA 91767. Send a message and a real person will respond within an hour." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="with-notice">
+
+<div class="mockup-notice"><strong>Tribuary preview</strong> — concept redesign of toddmemorialchapel.com using your real content &amp; photos. Real form submissions route to your Tribuary inbox on launch.</div>
+
+<div class="utility">
+  <div class="container">
+    <div class="left"><span><span class="pulse"></span> Available 24 hours · we are here when you need us</span></div>
+    <div><a href="tel:+19096221217">📞 (909) 622-1217</a> &nbsp;·&nbsp; <a href="contact.html">Send a message →</a></div>
+  </div>
+</div>
+
+<header class="nav">
+  <div class="container">
+    <a href="index.html" class="brand"><div class="brand-mark">T</div><div class="brand-text"><div class="name">Todd Memorial Chapel</div><div class="est">Family-owned · Since 1907</div></div></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">Our Family</a>
+      <a href="services.html">Services</a>
+      <a href="pricelist.html">Price List</a>
+      <a href="obituaries.html">Obituaries</a>
+      <a href="resources.html">Resources</a>
+      <a href="contact.html" class="nav-cta active" style="color:#fff !important">Contact</a>
+    </nav>
+    <button class="nav-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')" aria-label="Open menu">☰</button>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <span class="crumb">Contact &amp; Directions</span>
+    <h1>We are here, <em>day or night.</em></h1>
+    <p class="lead">Call us any time, or send a message and we will respond personally — usually within an hour, always within a few hours, even after-hours.</p>
+  </div>
+</section>
+
+<!-- CONTACT INFO + INQUIRY FORM -->
+<section class="contact-bg">
+  <div class="container">
+    <div class="contact-grid" style="margin-top:0">
+      <div class="contact-info">
+        <div class="contact-row">
+          <div class="icon">📞</div>
+          <div>
+            <h4>Call us — 24 hours</h4>
+            <p><a href="tel:+19096221217" style="font-size:1.5rem;font-family:'Cormorant Garamond',serif">(909) 622-1217</a></p>
+            <p style="font-size:13px;color:rgba(251,248,243,.7)">Fax: (909) 623-3950</p>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="icon">📍</div>
+          <div>
+            <h4>Pomona Chapel · Main Office</h4>
+            <p>570 North Garey Avenue<br>Pomona, California 91767</p>
+            <a href="https://maps.app.goo.gl/RZjBK8PSymuwAsVD6" target="_blank" style="font-size:13px;color:var(--gold-soft)">Get directions →</a>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="icon">✉</div>
+          <div>
+            <h4>Send a message</h4>
+            <p><a href="mailto:toddchapel@toddchapel.com">toddchapel@toddchapel.com</a></p>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="icon">⏱</div>
+          <div>
+            <h4>Office hours</h4>
+            <p>Mon – Fri · 8:00 AM – 5:00 PM<br>Saturday · By appointment</p>
+            <p style="margin-top:8px;color:var(--gold-soft);font-size:14px"><strong>For an immediate need at any hour, please call.</strong></p>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="icon">⚖</div>
+          <div>
+            <h4>License</h4>
+            <p>California Funeral Establishment License FD#110</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="inquiry" onsubmit="event.preventDefault();alert('In a live site this submits to your Tribuary inbox. This is a preview.');">
+        <h3>Tell us how we can help.</h3>
+        <p class="sub">A real person from our chapel will reach out — usually within an hour.</p>
+
+        <div class="urgency-row">
+          <label class="urgency-opt selected">
+            <input type="radio" name="urgency" value="immediate" checked>
+            <strong>Immediate need</strong>
+            <span>A loved one has passed</span>
+          </label>
+          <label class="urgency-opt">
+            <input type="radio" name="urgency" value="planning">
+            <strong>Planning ahead</strong>
+            <span>Pre-need conversation</span>
+          </label>
+        </div>
+
+        <div class="field-row">
+          <div class="field"><label>Your name</label><input type="text" placeholder="First and last name" required></div>
+          <div class="field"><label>Your phone</label><input type="tel" placeholder="(___) ___-____" required></div>
+        </div>
+
+        <div class="field"><label>Your email</label><input type="email" placeholder="your@email.com" required></div>
+
+        <div class="field">
+          <label>How can we help?</label>
+          <textarea rows="4" placeholder="A short note about your loved one, or anything you'd like us to know — it helps us help you better."></textarea>
+        </div>
+
+        <button type="submit" class="submit">Send Message</button>
+        <p class="form-note">We respond personally to every inquiry. Your information is never shared.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- DIRECTIONS -->
+<section>
+  <div class="container">
+    <div class="center" style="margin-bottom:12px">
+      <span class="section-eyebrow">Driving Directions</span>
+      <h2 class="section-title">Finding the Pomona Chapel.</h2>
+      <p class="lead">Whether you are coming from the west on the 10, the east, or somewhere in between, here is how to get to 570 North Garey Avenue.</p>
+    </div>
+    <div class="resource-grid">
+      <div class="resource-card">
+        <h3>From Los Angeles</h3>
+        <p>Take Interstate 10 East. Exit at <strong>Garey Avenue</strong>. Turn south (right) onto Garey. Continue approximately one mile — Todd Memorial Chapel is on the east side of the street.</p>
+        <a href="https://maps.app.goo.gl/RZjBK8PSymuwAsVD6" target="_blank">Open in Google Maps →</a>
+      </div>
+      <div class="resource-card">
+        <h3>From San Bernardino</h3>
+        <p>Take Interstate 10 West. Exit at <strong>Garey Avenue</strong>. Turn south (left) onto Garey. Continue approximately one mile — Todd Memorial Chapel is on the east side of the street.</p>
+        <a href="https://maps.app.goo.gl/RZjBK8PSymuwAsVD6" target="_blank">Open in Google Maps →</a>
+      </div>
+      <div class="resource-card">
+        <h3>From LAX or Ontario Airport</h3>
+        <p>From <strong>LAX</strong>: take I-105 East, then I-605 North, then I-10 East — exit Garey Ave. From <strong>Ontario (ONT)</strong>: take I-10 West about 12 minutes — exit Garey Ave.</p>
+        <a href="https://maps.app.goo.gl/RZjBK8PSymuwAsVD6" target="_blank">Open in Google Maps →</a>
+      </div>
+      <div class="resource-card">
+        <h3>Parking</h3>
+        <p>Free parking is available on-site at the Pomona Chapel and on the surrounding streets. Accessible parking and entrance are available — please call ahead and we will reserve a spot for you.</p>
+        <a href="tel:+19096221217">Call to reserve →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAP EMBED -->
+<section class="cream-bg" style="padding:0">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3303.7!2d-117.7497!3d34.0632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x459b56c0a88e9528!2sTodd%20Memorial%20Chapel!5e0!3m2!1sen!2sus!4v1700000000000"
+    width="100%" height="420" style="border:0;display:block" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" title="Todd Memorial Chapel map"></iframe>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand"><div class="name">Todd Memorial Chapel</div><p>Independently family-owned since 1907. Five generations of caring for the families of the Pomona Valley.</p><p style="margin-top:16px;font-size:13px;color:var(--gold-soft)">CA Funeral Establishment License FD#110</p></div>
+      <div><h5>Services</h5><a href="services.html#traditional">Traditional funerals</a><a href="services.html#cremation">Cremation services</a><a href="services.html#graveside">Graveside services</a><a href="services.html#shipment">Out-of-state transport</a><a href="services.html#preneed">Pre-need planning</a></div>
+      <div><h5>For Families</h5><a href="obituaries.html">Obituaries</a><a href="resources.html">Resources</a><a href="resources.html#veterans">Veterans benefits</a><a href="pricelist.html">Price list</a></div>
+      <div><h5>Contact</h5><a href="tel:+19096221217">(909) 622-1217</a><a href="mailto:toddchapel@toddchapel.com">toddchapel@toddchapel.com</a><a href="https://maps.app.goo.gl/RZjBK8PSymuwAsVD6" target="_blank">570 N Garey Ave, Pomona</a></div>
+    </div>
+    <div class="foot-bottom"><div>© 1907 – 2026 Todd Memorial Chapel · All rights reserved · CA License FD#110</div><div><a href="#" style="display:inline">Privacy</a> · <a href="#" style="display:inline">Accessibility</a> · <a href="pricelist.html" style="display:inline">FTC General Price List</a></div></div>
+  </div>
+</footer>
+
+<a href="tel:+19096221217" class="floating-call">📞 Call us — (909) 622-1217</a>
+<script>
+document.querySelectorAll('.urgency-opt').forEach(opt => {
+  opt.addEventListener('click', () => {
+    document.querySelectorAll('.urgency-opt').forEach(o => o.classList.remove('selected'));
+    opt.classList.add('selected');
+  });
+});
+document.querySelectorAll('#navLinks a').forEach(a => a.addEventListener('click', () => document.getElementById('navLinks').classList.remove('open')));
+</script>
+</body>
+</html>
